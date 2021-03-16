@@ -56,6 +56,7 @@ public class HashTable<K, D> {
      *
      * @param key used to get the hash code and the right table
      * @param data the data to be inserted with that hashcode
+     * @return true if key is new and inserted to hashtable, false if key already exists
      * @throws NullPointerException throws exception when value is null
      */
     public boolean insert(K key, D data) {
